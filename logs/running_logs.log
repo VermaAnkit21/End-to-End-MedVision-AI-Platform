@@ -1,0 +1,94 @@
+[2024-01-06 19:53:25,192: INFO: test: Welcome to Eir!]
+[2024-01-06 20:20:26,273: INFO: test: Welcome to Eir!]
+[2024-01-06 20:44:52,594: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-06 20:47:26,368: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-06 20:47:26,373: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-06 20:47:26,376: INFO: common: created directory at: artifacts]
+[2024-01-06 20:47:26,381: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-06 20:47:26,385: INFO: 3172177572: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-06 20:51:16,744: INFO: 3172177572: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-07 00:28:16,417: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-01-07 00:28:16,418: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-01-07 00:28:21,106: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-07 00:28:21,109: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-07 00:28:21,111: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-07 00:28:21,112: INFO: common: created directory at: artifacts]
+[2024-01-07 00:28:21,119: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-07 00:28:21,122: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-07 00:31:43,311: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-07 00:31:44,129: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-01-07 16:54:00,501: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-01-07 16:54:00,509: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-01-07 17:03:14,786: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-07 17:03:14,796: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-07 17:03:14,799: INFO: common: created directory at: artifacts]
+[2024-01-07 17:03:14,803: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-01-07 17:06:46,098: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-01-07 17:18:45,508: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-01-07 17:18:45,508: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-01-07 17:18:49,382: INFO: main: *******************]
+[2024-01-07 17:18:49,383: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-01-07 17:18:49,386: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-07 17:18:49,389: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-07 17:18:49,390: INFO: common: created directory at: artifacts]
+[2024-01-07 17:18:49,391: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-01-07 17:18:50,065: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-01-07 17:18:50,398: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-01-07 17:24:16,169: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-01-07 17:24:16,172: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-01-07 17:30:59,518: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-07 17:30:59,525: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-07 17:30:59,528: INFO: common: created directory at: artifacts]
+[2024-01-07 17:30:59,531: INFO: common: created directory at: artifacts\training]
+[2024-01-07 22:11:40,281: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-01-07 22:11:40,283: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-01-07 22:11:44,501: INFO: main: *******************]
+[2024-01-07 22:11:44,502: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-01-07 22:11:44,504: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-07 22:11:44,507: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-07 22:11:44,508: INFO: common: created directory at: artifacts]
+[2024-01-07 22:11:44,512: INFO: common: created directory at: artifacts\training]
+[2024-01-07 22:44:36,013: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-01-08 01:21:24,924: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-08 01:21:24,950: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-08 01:21:24,953: INFO: common: created directory at: artifacts]
+[2024-01-08 01:23:49,443: INFO: common: json file saved at: scores.json]
+[2024-01-08 01:23:57,267: WARNING: save: Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 14). These functions will not be directly callable after loading.]
+[2024-01-08 01:23:59,675: INFO: builder_impl: Assets written to: C:\Users\pathi\AppData\Local\Temp\tmp8eysnq6o\model\data\model\assets]
+[2024-01-09 00:40:21,856: INFO: utils: Note: NumExpr detected 16 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-01-09 00:40:21,856: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-01-09 00:40:23,430: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000]
+[2024-01-09 00:40:23,431: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-01-09 00:40:29,808: INFO: _internal: 127.0.0.1 - - [09/Jan/2024 00:40:29] "GET / HTTP/1.1" 200 -]
+[2024-01-09 00:40:57,547: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\pathi\anaconda3\Lib\site-packages\flask\app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pathi\anaconda3\Lib\site-packages\flask\app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pathi\anaconda3\Lib\site-packages\flask_cors\extension.py", line 176, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+                                                ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pathi\anaconda3\Lib\site-packages\flask\app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pathi\anaconda3\Lib\site-packages\flask\app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pathi\anaconda3\Lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+                         ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\pathi\OneDrive\Desktop\Eir\app.py", line 43, in predictRoute
+    decodeImage(image, clApp.filename)
+                       ^^^^^
+NameError: name 'clApp' is not defined
+[2024-01-09 00:40:57,577: INFO: _internal: 127.0.0.1 - - [09/Jan/2024 00:40:57] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
