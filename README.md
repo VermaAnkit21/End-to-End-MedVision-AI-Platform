@@ -38,23 +38,23 @@ MedVision AI solves this problem by:
 
 
 MedVision-AI/
-│── app.py
-│── main.py
-│── params.yaml
-│── dvc.yaml
-│── requirements.txt
-│── setup.py
-│── scores.json
+│── app.py # Flask API
+│── main.py # ML pipeline execution
+│── params.yaml # Model parameters
+│── dvc.yaml # Pipeline orchestration
+│── requirements.txt # Dependencies
+│── setup.py # Package setup
+│── scores.json # Model metrics
 │── src/
 │ └── cnnClassifier/
-│ ├── components/
-│ ├── pipeline/
-│ ├── utils/
-│ ├── config/
-│ ├── entity/
-│ └── constants/
+│ ├── components/ # Core ML components
+│ ├── pipeline/ # Training pipeline
+│ ├── utils/ # Utility functions
+│ ├── config/ # Configuration
+│ ├── entity/ # Data entities
+│ └── constants/ # Constants
 │── templates/
-│ └── index.html
+│ └── index.html # Frontend UI
 
 
 ---
