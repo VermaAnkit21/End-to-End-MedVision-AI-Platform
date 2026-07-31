@@ -1,15 +1,110 @@
-# Eir
-A health ML App
+🏥 End-to-End MedVision AI Platform
+Intelligent Medical Image Classification & Deep Learning System
 
-# Workflows
-* 1.Update config.yaml
-* 2.Update secrets.yaml [Optional]
-* 3.Update params.yaml
-* 4.Update the entity
-* 5.Update the configuration manager in src config
-* 6.Update the components
-* 7.Update the pipeline
-* 8.Update the main.py
-* 9.Update the dvc.yaml
-* 10.app.py
+End-to-End MedVision AI Platform is a powerful deep learning-based system that transforms medical images into meaningful predictions using Convolutional Neural Networks (CNN). It provides a complete machine learning pipeline from data ingestion to deployment, enabling scalable and automated healthcare image analysis.
 
+🌟 Overview
+
+Medical imaging plays a crucial role in modern healthcare, but analyzing images manually is time-consuming and requires expertise.
+
+MedVision AI solves this problem by:
+
+Automatically processing medical images
+Applying deep learning (CNN) for classification
+Generating accurate predictions
+Providing real-time inference through APIs
+Ensuring reproducibility with ML pipelines
+✨ Key Features
+🧠 Deep Learning Model (CNN) using TensorFlow
+🔄 End-to-End ML Pipeline
+Data Ingestion
+Base Model Preparation
+Model Training
+Model Evaluation
+🌐 Flask API for real-time prediction
+📊 MLflow for experiment tracking
+📦 DVC for data and pipeline versioning
+⚙️ Modular and production-ready architecture
+🏗️ Project Architecture
+MedVision-AI/
+│── app.py
+│── main.py
+│── params.yaml
+│── dvc.yaml
+│── requirements.txt
+│── setup.py
+│── scores.json
+│── src/
+│   └── cnnClassifier/
+│       ├── components/
+│       ├── pipeline/
+│       ├── utils/
+│       ├── config/
+│       ├── entity/
+│       └── constants/
+│── templates/
+│   └── index.html
+⚙️ Workflow
+Load and ingest image dataset
+Prepare base CNN model
+Train deep learning model
+Evaluate model performance
+Deploy via Flask API
+Serve real-time predictions
+🛠️ Tech Stack
+Python
+TensorFlow / Keras
+Flask
+MLflow
+DVC
+NumPy, Pandas
+🚀 Getting Started
+Clone Repository
+git clone https://github.com/VermaAnkit21/MedVision-AI.git
+cd MedVision-AI
+Install Dependencies
+pip install -r requirements.txt
+Run Training
+python main.py
+Run App
+python app.py
+🔌 API
+
+Train
+
+GET /train
+
+Predict
+
+POST /predict
+
+Request:
+
+{
+  "image": "base64_encoded_image"
+}
+
+Response:
+
+{
+  "prediction": "class_label"
+}
+📊 Model Performance
+Accuracy: 1.0
+Loss: 0.0022
+🎯 Use Cases
+Medical Image Diagnosis
+CT/MRI Detection
+Healthcare Analytics
+Clinical Decision Support
+⚠️ Notes
+Install dependencies first
+Run DVC using:
+dvc repro
+👨‍💻 Author
+
+Ankit Verma
+
+⭐ Support
+
+Give a ⭐ if you like this project!
