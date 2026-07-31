@@ -1,4 +1,5 @@
 # 🏥 End-to-End MedVision AI Platform
+
 ### Intelligent Medical Image Classification & Deep Learning System
 
 End-to-End MedVision AI Platform is a powerful deep learning-based system that transforms medical images into meaningful predictions using Convolutional Neural Networks (CNN). It provides a complete machine learning pipeline from data ingestion to deployment, enabling scalable and automated healthcare image analysis.
@@ -11,41 +12,41 @@ Medical imaging plays a crucial role in modern healthcare, but analyzing images 
 
 MedVision AI solves this problem by:
 
-- Automatically processing medical images  
-- Applying deep learning (CNN) for classification  
-- Generating accurate predictions  
-- Providing real-time inference through APIs  
-- Ensuring reproducibility with ML pipelines  
+- Automatically processing medical images
+- Applying deep learning (CNN) for classification
+- Generating accurate predictions
+- Providing real-time inference through APIs
+- Ensuring reproducibility with ML pipelines
 
 ---
 
 ## ✨ Key Features
 
-- 🧠 Deep Learning Model (CNN) using TensorFlow  
-- 🔄 End-to-End ML Pipeline  
-  - Data Ingestion  
-  - Base Model Preparation  
-  - Model Training  
-  - Model Evaluation  
-- 🌐 Flask API for real-time prediction  
-- 📊 MLflow for experiment tracking  
-- 📦 DVC for data and pipeline versioning  
-- ⚙️ Modular and production-ready architecture  
+- 🧠 **Deep Learning Model (CNN)** using TensorFlow
+- 🔄 **End-to-End ML Pipeline**
+  - Data Ingestion
+  - Base Model Preparation
+  - Model Training
+  - Model Evaluation
+- 🌐 **Flask API** for real-time prediction
+- 📊 **MLflow** for experiment tracking
+- 📦 **DVC** for data and pipeline versioning
+- ⚙️ Modular and production-ready architecture
 
 ---
 
 ## 🏗️ Project Architecture
 
-
+```
 MedVision-AI/
-│── app.py
-│── main.py
-│── params.yaml
-│── dvc.yaml
-│── requirements.txt
-│── setup.py
-│── scores.json
-│── src/
+├── app.py
+├── main.py
+├── params.yaml
+├── dvc.yaml
+├── requirements.txt
+├── setup.py
+├── scores.json
+├── src/
 │   └── cnnClassifier/
 │       ├── components/
 │       ├── pipeline/
@@ -53,31 +54,31 @@ MedVision-AI/
 │       ├── config/
 │       ├── entity/
 │       └── constants/
-│── templates/
-│   └── index.html
-
+└── templates/
+    └── index.html
+```
 
 ---
 
 ## ⚙️ Workflow
 
-1. Load and ingest image dataset  
-2. Prepare base CNN model  
-3. Train deep learning model  
-4. Evaluate model performance  
-5. Deploy via Flask API  
-6. Serve real-time predictions  
+1. Load and ingest image dataset
+2. Prepare base CNN model
+3. Train deep learning model
+4. Evaluate model performance
+5. Deploy via Flask API
+6. Serve real-time predictions
 
 ---
 
 ## 🛠️ Tech Stack
 
-- Python  
-- TensorFlow / Keras  
-- Flask  
-- MLflow  
-- DVC  
-- NumPy, Pandas  
+- Python
+- TensorFlow / Keras
+- Flask
+- MLflow
+- DVC
+- NumPy, Pandas
 
 ---
 
@@ -85,28 +86,28 @@ MedVision-AI/
 
 ### Clone Repository
 
-
+```bash
 git clone https://github.com/VermaAnkit21/MedVision-AI.git
 cd MedVision-AI
-
+```
 
 ### Install Dependencies
 
-
+```bash
 pip install -r requirements.txt
-
+```
 
 ### Run Training
 
-
+```bash
 python main.py
-
+```
 
 ### Run App
 
-
+```bash
 python app.py
-
+```
 
 ---
 
@@ -114,59 +115,66 @@ python app.py
 
 ### Train
 
+```
 GET /train
-
+```
 
 ### Predict
 
+```
 POST /predict
+```
 
+**Request:**
 
-#### Request:
-
+```json
 {
-"image": "base64_encoded_image"
+  "image": "base64_encoded_image"
 }
+```
 
+**Response:**
 
-#### Response:
-
+```json
 {
-"prediction": "class_label"
+  "prediction": "class_label"
 }
-
+```
 
 ---
 
 ## 📊 Model Performance
 
-- Accuracy: 1.0  
-- Loss: 0.0022  
+| Metric   | Value  |
+|----------|--------|
+| Accuracy | 1.0    |
+| Loss     | 0.0022 |
 
 ---
 
 ## 🎯 Use Cases
 
-- Medical Image Diagnosis  
-- CT/MRI Detection  
-- Healthcare Analytics  
-- Clinical Decision Support  
+- Medical Image Diagnosis
+- CT/MRI Detection
+- Healthcare Analytics
+- Clinical Decision Support
 
 ---
 
 ## ⚠️ Notes
 
-- Install dependencies first  
+- Install dependencies first
 - Run DVC using:
 
+```bash
 dvc repro
-
+```
 
 ---
 
 ## 👨‍💻 Author
 
-Ankit Verma  
+**Ankit Verma**
 
 ---
 
