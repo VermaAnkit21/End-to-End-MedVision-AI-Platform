@@ -14,6 +14,7 @@ Applying deep learning (CNN) for classification
 Generating accurate predictions
 Providing real-time inference through APIs
 Ensuring reproducibility with ML pipelines
+
 ✨ Key Features
 🧠 Deep Learning Model (CNN) using TensorFlow
 🔄 End-to-End ML Pipeline
@@ -25,6 +26,7 @@ Model Evaluation
 📊 MLflow for experiment tracking
 📦 DVC for data and pipeline versioning
 ⚙️ Modular and production-ready architecture
+
 🏗️ Project Architecture
 MedVision-AI/
 │── app.py
@@ -44,6 +46,7 @@ MedVision-AI/
 │       └── constants/
 │── templates/
 │   └── index.html
+
 ⚙️ Workflow
 Load and ingest image dataset
 Prepare base CNN model
@@ -51,6 +54,7 @@ Train deep learning model
 Evaluate model performance
 Deploy via Flask API
 Serve real-time predictions
+
 🛠️ Tech Stack
 Python
 TensorFlow / Keras
@@ -58,6 +62,7 @@ Flask
 MLflow
 DVC
 NumPy, Pandas
+
 🚀 Getting Started
 Clone Repository
 git clone https://github.com/VermaAnkit21/MedVision-AI.git
